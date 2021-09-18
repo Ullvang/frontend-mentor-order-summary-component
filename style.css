@@ -12,6 +12,8 @@ body {
 }
 
 h1 {
+  margin: 0.83em 0px;
+  font-size: 1.5em;
   font-weight: 900;
   color: hsl(223, 47%, 23%);
 }
@@ -21,7 +23,7 @@ p {
   color: hsl(224, 23%, 55%);
 }
 
-section {
+main {
   overflow: hidden;
   background-color: #fff;
   min-width: 280px;
@@ -31,7 +33,7 @@ section {
   margin: auto 20px 0px 20px;
 }
 
-section > img {
+main > img {
   width: 100%;
 }
 
@@ -82,7 +84,11 @@ button:hover {
   padding: 10px;
 }
 
-div > h3 {
+h2 {
+  font-size: 18.72px;
+}
+
+div > h2 {
   margin: 5px 0px;
   font-weight: 900;
   color: hsl(223, 47%, 23%);
@@ -106,7 +112,7 @@ div > h3 {
 }
 
 @media (max-width: 500px) {
-  section {
+  main {
     width: 80%;
   }
 }
@@ -130,13 +136,13 @@ div > h3 {
     padding: 5px;
     text-align: left;
   }
-  div > h3 {
+  div > h2 {
     font-size: 0.8em;
   }
 }
 
 @media (max-width: 500px) and (max-height: 650px) {
-  section {
+  main {
     margin: 20px 20px 20px 20px;
   }
 }
